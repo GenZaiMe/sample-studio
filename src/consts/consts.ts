@@ -9,17 +9,17 @@ export type ThemeCode = "mr" | "gg" | "pb" | "ps" | "pg" | "dy" | "so";
 
 export const SITE_CONFIG = {
   // ★サイトの正しいURLに変更してください（sitemapやOGP等で使う想定）
-  siteUrl: "https://genzai.me",
+  siteUrl: "https://sample-studio.genzai.me",
 
-  title: "GenZaiMe - 現在味",
+  title: "(サンプル)GenZaiMe Studio - 現在味",
   lang: "ja",
 
   // dark/light はモード（文字色と背景のコントラスト）
-  defaultTheme: "dark" as "dark" | "light",
+  defaultTheme: "light" as "dark" | "light",
 
   // ★アクセントは「枠・見出し・Markdown装飾」にだけ使う想定
   // GenZaiMe は red(mr) を既定にする
-  defaultAccent: "so" as ThemeCode,
+  defaultAccent: "gg" as ThemeCode,
 
   analytics: {
     // Google Analytics / gtag を使う場合に設定
@@ -118,7 +118,7 @@ export const FOOTER_MENU = [
  * コピーライト表示
  */
 export const COPYRIGHT = {
-  owner: "GenZaiMe",
+  owner: "(サンプル)GenZaiMe Studio",
   startYear: 2026
 };
 
