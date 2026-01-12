@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   // ★サイトの正しいURLに変更してください（sitemapやOGP等で使う想定）
   siteUrl: "https://sample-studio.genzai.me",
 
-  title: "(サンプル)GenZaiMe Studio - 現在味",
+  title: "(サンプル)GenZaiMe Studio - 現在味スタジオ",
   lang: "ja",
 
   // dark/light はモード（文字色と背景のコントラスト）
@@ -72,7 +72,7 @@ export const HOME_BLOCKS = [
  * コーポレート情報（右側や cp ページで使う想定）
  */
 export const OPS_CONFIG = {
-  companyName: "(サンプル)GenZaiMe - 現在味",
+  companyName: "(サンプル)GenZaiMe Studio - 現在味スタジオ",
   project_code:"GenZaiMe",
   project_code_jp:"現在味",
   description: "操作がわかりやすく。視認性が高く。拡張しやすく誰でも利用可能なテーマを提供しています。",
